@@ -16,12 +16,12 @@ flex nombre_archivo.l
 
 Carga el archivo .jacc
 ```
-bison -dy nombre_archivo.j
+bison -dy nombre_archivo.y
 ```
 
 Compila los archivos resultantes de los pasos anteriores
 ```
-gcc lex.yy.c y.tap.c -o nombre.exe
+gcc lex.yy.c y.tab.c -o nombre.exe
 ```
 
 Por ultimo se carga el programa para analizar cadenas de cada una de las gramaticas
